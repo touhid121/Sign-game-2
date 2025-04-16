@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Guess the Signor</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+   <div id="sharePopup" class="popup hidden">
+      <div class="popup-content">
+        <h2>Game Complete!</h2>
+        <p>Great job! You scored <span id="finalScore"></span> points with <span id="finalAttempts"></span> attempts!</p>
+        <div class="input-group">
+          <label for="playerNameInput">Enter your name:</label>
+          <input type="text" id="playerNameInput" placeholder="Your Name" maxlength="20">
+        </div>
+        <button onclick="saveScoreAndShare()" class="share-btn">Save & Share on X</button>
+        <button onclick="closeSharePopup()" class="close-btn">Close</button>
+      </div>
+    </div>
+
+    
+    <div class="all">
+<div class="container">
+
+   <p id="feedback" class="feedback-message"></p>
+
+   <h1>Guess the signor</h1>
+
+   <div class="image-box" id="characterImage">
+    <img src="" alt="" >
+   </div>
+   <input type="text" id="guessInput" placeholder="Who is this signor?">
+ <div class="btn1">
+   <button id="submitBtn" class="submitBtn" onclick="checkGuess()"><strong>SUBMIT GUESS</strong></button>   <button class="hintBtn" onclick="hint()">Hint</button>
+</div>
+<div id="hintPopup" class="hint-popup hidden">
+   <div class="hint-content">
+     <span class="close" onclick="closeHintPopup()">&times;</span>
+     <p id="hintText">Ara! Ara! Naughty Signor you need hint now,Hehe</p>
+   </div>
+ </div>
+<div class="next">
+   <button class="nextBtn" onclick="nextBtn()"><strong>NEXT SIGNOR</strong></button>
+</div>
+   <div class="results">
+    <p>Score&colon; &nbsp;<span id="scoreValue">0</span></p>
+    <p>Attempts&colon; &nbsp;<span id="attemptsValue">0</span></p>
+ </div>
+</div>
+<button id="leaderboardBtn" class="game-btn">Leaderboard</button>
+
+   <!-- Leaderboard  -->
+   <div id="leaderboardPopup" class="popup hidden">
+     <div class="popup-content">
+       <h2>Leaderboard</h2>
+       <ul id="leaderboardList" class="leaderboard-list">
+         <!-- entries -->
+       </ul>
+       <button onclick="closeLeaderboard()" class="close-btn">Close</button>
+     </div>
+   </div>
+   <button id="startAgainBtn" class="button">Start Again</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
