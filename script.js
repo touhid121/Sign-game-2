@@ -19,7 +19,7 @@ const characters = [
     image: "Real_img/yahayati.jpg",
     shadowImage: "Shadow_img/yahayati.jpg",
     hint: "If it aint she...the only one , Seems like sign intern ",
-    acceptableAnswers: [ "yahayati ","yahayati.sign", ]
+    acceptableAnswers: [ "yahayati","yahayati.sign", ]
   },
   {
     name: "XIN",
@@ -224,7 +224,7 @@ const characters = [
     image: "Real_img/himesam.jpg",
     shadowImage: "Shadow_img/himesama.png",
     hint: "Dynasty Coordinator.Just a chill g..l .... .... .....",
-    acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
+    acceptableAnswers: ["hime", "himesama", "hime-sama"]
   },
   {
     name: "THOTH",
