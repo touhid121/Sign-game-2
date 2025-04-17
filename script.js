@@ -159,7 +159,7 @@ const characters = [
   {
     name: "KORO JADE",
     image: "Real_img/KORO J.jpg",
-    shadowImage: "Shadow_img/KORO J.jpg",
+    shadowImage: "Shadow_img/KORO J.png",
     hint: "Sign super MAxi.Daily sign engager",
     acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
   },
