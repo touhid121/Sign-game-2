@@ -156,13 +156,13 @@ const characters = [
   //   hint: "Cutest mode",
   //   acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
   // },
-  // {
-  //   name: "KORO J",
-  //   image: "Real_img/KORO J.jpg",
-  //   shadowImage: "Shadow_img/KORO J.jpg",
-  //   hint: "Cutest mode",
-  //   acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
-  // },
+  {
+    name: "KORO JADE",
+    image: "Real_img/KORO J.jpg",
+    shadowImage: "Shadow_img/KORO J.jpg",
+    hint: "Sign super MAxi.Daily sign engager",
+    acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
+  },
   {
     name: "0xTowhid",
     image: "Real_img/me.png",
@@ -219,13 +219,13 @@ const characters = [
   //   hint: "Cutest mode",
   //   acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
   // },
-  // {
-  //   name: "STARLIO",
-  //   image: "Real_img/STARLIO.jpg",
-  //   shadowImage: "Shadow_img/STARLIO.jpg",
-  //   hint: "Cutest mode",
-  //   acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
-  // },
+  {
+    name: "Hime Sama",
+    image: "Real_img/himesam.jpg",
+    shadowImage: "Shadow_img/himesama.png",
+    hint: "Dynasty Coordinator.Just a chill g..l .... .... .....",
+    acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
+  },
   {
     name: "THOTH",
     image: "Real_img/THOTH.jpg",
