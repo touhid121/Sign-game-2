@@ -142,13 +142,15 @@ const characters = [
     hint: "Product Designer at @sign. Justin bieber??????" ,
     acceptableAnswers: ["justin Zhang", "justin", "justin jhang"]
   },
-  // {
-  //   // name: "JAYPEE",
-  //   // image: "Real_img/JAYPEE.jpg",
-  //   // shadowImage: "Shadow_img/JAYPEE.jpg",
-  //   // hint: "Cutest mode",
-  //   // acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
-  // },
+  {
+    name: "MD. Sign",
+    image: "Real_img/md.sign.jpg",
+    shadowImage: "Shadow_img/md sign.png",
+    hint: "Building Web3 communities • Strategic promoter • Driving adoption through Storytelling • CC @sign  • Gamer ",
+
+
+    acceptableAnswers: ["md", "md.sign", "md sign"]
+  },
   // {
   //   name: "JERRYZ",
   //   image: "Real_img/JERRYZ.jpg",
