@@ -151,13 +151,13 @@ const characters = [
 
     acceptableAnswers: ["md", "md.sign", "md sign"]
   },
-  // {
-  //   name: "JERRYZ",
-  //   image: "Real_img/JERRYZ.jpg",
-  //   shadowImage: "Shadow_img/JERRYZ.jpg",
-  //   hint: "Cutest mode",
-  //   acceptableAnswers: ["Zoe", "zoe-chan", "CM"]
-  // },
+  {
+    name: "Toby",
+    image: "Real_img/toby.jpg",
+    shadowImage: "Shadow_img/toby.png",
+    hint: "Name starts with T. SIGN SEER...3 at once (airdroper,resercher,trader)",
+    acceptableAnswers: ["toby", "toby_sign", "tob"]
+  },
   {
     name: "KORO JADE",
     image: "Real_img/KORO J.jpg",
